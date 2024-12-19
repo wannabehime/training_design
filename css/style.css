@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.wrapper {
+    margin: 5em 10em;
+}
+
+.flex-group {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+#catalog-antique-group {
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin: auto;
+}
