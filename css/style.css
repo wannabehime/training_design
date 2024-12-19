@@ -1,24 +1,98 @@
 @charset "UTF-8";
 
+body {
+    font-family: Arial;
+}
+
 .wrapper {
-    margin: 5em 10em;
+    margin: 5em auto;
+    max-width: 1040px;
 }
 
 .flex-group {
     display: flex;
-    gap: 1em;
-    justify-content: center;
+    flex-wrap: wrap; /* 折り返しを許可 */
 }
 
-#catalog-antique-group {
-    flex-direction: column;
+.footer {
+    justify-content: space-between;
+    align-items: center;
+    margin: 6.25rem auto;
+}
+
+.copyright {
+    margin: 1.875rem 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.larger-text {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+}
+
+.smaller-text {
+    font-size: 0.75rem;
 }
 
 .center {
     text-align: center;
 }
 
+/* ユーティリティクラス */
+
 .center-image {
     display: block;
     margin: auto;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;   
+}
+
+.narrow-gap {
+    gap: 1.25rem;
+}
+
+.gap {
+    gap: 2.5rem;
+}
+
+.wide-gap {
+    gap: 7.5rem;
+}
+
+.margin-bottom-0125 {
+    margin-bottom: 0.125rem;
+}
+
+.margin-bottom-0625 {
+    margin-bottom: 0.625rem;
+}
+
+.margin-bottom-125 {
+    margin-bottom: 1.25rem;
+}
+
+.margin-bottom-1875 {
+    margin-bottom: 1.875rem;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 2.5rem;
+}
+
+.margin-bottom-375 {
+    margin-bottom: 3.75rem;
+}
+
+.line-height-15 {
+    line-height: 1.5rem;
+}
+
+#catalog-antique-group {
+    flex-direction: column;
 }
