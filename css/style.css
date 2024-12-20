@@ -4,14 +4,31 @@ body {
     font-family: Arial;
 }
 
+#header-logo {
+    top: 1.875rem;
+    right: 1.875rem;
+}
+
+#header-group {
+    max-width: 1600px;
+}
+
 .wrapper {
-    margin: 5em auto;
+    margin: 5rem auto;
     max-width: 1040px;
 }
 
 .flex-group {
     display: flex;
     flex-wrap: wrap; /* 折り返しを許可 */
+}
+
+#catalog-antique-group {
+    flex-direction: column;
+}
+
+#fashion-and-style-group {
+    top: 3.75rem;
 }
 
 .footer {
@@ -37,11 +54,19 @@ h2 {
     font-size: 0.75rem;
 }
 
+/* ユーティリティクラス */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 .center {
     text-align: center;
 }
-
-/* ユーティリティクラス */
 
 .center-image {
     display: block;
@@ -51,6 +76,29 @@ h2 {
 .align-center {
     display: flex;
     align-items: center;   
+}
+
+.margin-right-left-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.display-grid {
+    display: grid;
+    justify-content: center;
+}
+.display-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-center {
+    display: grid;
+    place-items: center;
+}
+
+.inset-0 {
+    inset: 0;
 }
 
 .narrow-gap {
@@ -91,8 +139,4 @@ h2 {
 
 .line-height-15 {
     line-height: 1.5rem;
-}
-
-#catalog-antique-group {
-    flex-direction: column;
 }
