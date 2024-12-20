@@ -8,10 +8,12 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div>
-    <img src="images/Mask group Black.png" alt="古本屋" class="center-image">
-    <img src="images/logo.png" alt="ロゴ">
-</div>
+<header>
+    <div id="header-group" class="relative margin-right-left-auto">
+        <img src="images/Mask group Black.png" alt="古本屋" class="center-image">
+        <img src="images/logo.png" alt="ロゴ" id="header-logo" class="absolute">
+    </div>
+</header>
 
 <div class="wrapper">
     <div>
@@ -24,11 +26,11 @@
         </p>
     </div>
     <div class="flex-group narrow-gap">
-        <div>
+        <div class="relative grid-center">
             <div>
                 <img src="images/magazine-archive 1.png" alt="複数の本">
             </div>
-            <div>
+            <div class="absolute">
                 <h2 class="center margin-bottom-0125">
                     Archive
                 </h2>
@@ -38,11 +40,11 @@
                 </p>
             </div>
         </div>
-        <div>
+        <div class="relative grid-center">
             <div>
                 <img src="images/magazine-new 1.png" alt="開かれている本">
             </div>
-            <div>
+            <div class="absolute">
                 <h2 class="center margin-bottom-0125">
                     New
                 </h2>
@@ -55,8 +57,11 @@
     </div>
 </div>
 
-<div>
+<div class="relative display-flex">
     <div>
+        <img src="images/Mask group White.png" alt="積み重なったデバイスと本" class="center-image">
+    </div>
+    <div id="fashion-and-style-group" class="absolute">
         <h2 class="center margin-bottom-125">
             Fashion & Style
         </h2>
@@ -67,9 +72,6 @@
         <div class="center">
             <button>Read More</button>
         </div>
-    </div>
-    <div>
-        <img src="images/Mask group White.png" alt="積み重なったデバイスと本" class="center-image">
     </div>
 </div>
 
