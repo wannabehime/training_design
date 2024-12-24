@@ -14,7 +14,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1040px;
+    max-width: 1041px;
     margin: 0 auto;
     padding: 5rem 0;
 }
@@ -30,6 +30,10 @@ body {
 
 #catalog-antique-group {
     flex-direction: column;
+}
+
+#catalog-group {
+    max-width: 31.3125rem;
 }
 
 #fashion-and-style-group {
@@ -84,7 +88,7 @@ h2 {
 
 .center-image {
     display: block;
-    margin: auto;
+    margin: auto;   
 }
 
 .align-center {
@@ -173,4 +177,49 @@ h2 {
 
 .background-color-light-grey {
     background-color: #F5F5F5;
+}
+
+/* メディアクエリ */
+
+@media (max-width: 375px) {
+
+    .wrapper {
+        max-width: 21.0625rem;
+    }
+
+    #fashion-and-style-group {
+        max-width: 21.0625rem;
+    }
+
+    #catalog-antique-group {
+        padding: 1.875rem 0;
+    }
+
+    .catalog-antique-text {
+        text-align: start;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: stretch; /* リセット */
+        padding: 1.875rem 0 3.75rem 0;
+        gap: 1.875rem;
+    }
+
+    #footer-logo {
+        margin: 0 auto;
+    }
+
+    .center-image {
+        object-fit: cover;
+        height: 80dvh;
+    }
+
+    .narrow-gap {
+        gap: 1.875rem;
+    }
+
+    .wide-gap {
+        gap: 3.75rem;
+    }
 }
