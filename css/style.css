@@ -14,13 +14,18 @@ body {
 }
 
 .wrapper {
-    margin: 5rem auto;
     max-width: 1040px;
+    margin: 0 auto;
+    padding: 5rem 0;
 }
 
 .flex-group {
     display: flex;
     flex-wrap: wrap; /* 折り返しを許可 */
+}
+
+.archive-and-new-group{
+    padding: 0.9375rem 2.02rem 0.9375rem 2.1675rem;
 }
 
 #catalog-antique-group {
@@ -34,7 +39,8 @@ body {
 .footer {
     justify-content: space-between;
     align-items: center;
-    margin: 6.25rem auto;
+    margin: 0 auto;
+    padding: 6.25rem 0;
 }
 
 .copyright {
@@ -52,6 +58,14 @@ h2 {
 
 .smaller-text {
     font-size: 0.75rem;
+}
+
+.button {
+    padding: 0.875rem 2.25rem;
+    border: solid 1px #000000;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #24292E;
 }
 
 /* ユーティリティクラス */
@@ -139,4 +153,24 @@ h2 {
 
 .line-height-15 {
     line-height: 1.5rem;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.color-light-black {
+    color: #24292E;
+}
+
+.background-color-black {
+    background-color: #333333;
+}
+
+.background-color-grey {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.background-color-light-grey {
+    background-color: #F5F5F5;
 }
